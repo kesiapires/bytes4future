@@ -1,0 +1,213 @@
+/*Geral*/
+* {
+	margin: 0%;
+	padding: 0%;
+	text-decoration: none;
+}
+/*NAVBAR FIXA*/
+nav{
+	background-color: rgba(46, 45, 45, 0.884);
+	padding: 10px;
+	text-align: right;
+	position: fixed;
+	width: 100%;
+}
+nav a{
+	color: white;
+	margin-left: 30px;
+}
+nav a:last-child{
+	margin-left: 150px;
+	color: yellow;
+	margin-right: 30px;
+	font-family: "Inter Tight", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: bold;
+	font-style: normal;
+}
+/*FRAME: HOME PAGE*/
+#homePage{
+	background-image: url(/bytes4future/portifolio/css/Frame\ 5.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 100vh;
+	padding-top: 60px;
+}
+/*FLEXBOX*/
+.home{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	text-align: center;
+	height: 100vh;
+}
+/*CONTEUDO DENTRO DA HOME*/
+h5{
+	font-family: "Inter Tight", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: lighter;
+	font-style: normal;
+	font-size: 20px;
+	padding: 120px;
+	padding-left: 320px;
+}
+button{
+	color: rgb(245, 85, 197);
+	font-size: 35px;
+	font-weight: bold;
+	border-color: paleturquoise;
+	border-radius: 15px;
+	background-color: white;
+}
+button span{
+	color: orange;
+}
+#contacts{
+	padding: 100px;
+	padding-right: 220px;
+	font-size: large;
+}
+.logo {
+	display: flex;
+	justify-content: space-between;
+  }
+  .download{
+	font-size: 16px;
+	font-weight: lighter;
+  }
+.contatos{
+	color: rgba(0, 0, 0, 0.801);
+	font-size: 20px;
+  }
+/*--------------------------------------------------------*/
+
+/*FRAME: ABOUT ME*/
+#aboutMe{
+	background-image: url(/bytes4future/portifolio/css/Frame\ 6.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	
+}
+#aboutMe p{
+	font-size: 24px;
+	line-height: 1.43;
+	font-weight: lighter;
+	width: 700px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.76);
+	margin-bottom: 100px;
+}
+/*--------------------------------------------------------*/
+
+/*FRAME: experience_training*/
+#experience_training{
+	background-image: url(/bytes4future/portifolio/css/Frame\ 7.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 100vh;
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-evenly;
+	justify-items: center;
+	align-items: end;
+}
+#experience_training p{
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.43;
+	width: 406px;
+	height: 190px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	margin-bottom: 100px;
+}
+/*--------------------------------------------------------*/
+
+/*FRAME: skills_language*/
+#skills_language{
+	background-image: url(/bytes4future/portifolio/css/Frame\ 9.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 100vh;
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+#skills_language p{
+	font-size: 20px;
+	line-height: 1.43;
+	width: 600px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.774);
+	margin-bottom: 100px;
+	width: 440px;
+	height: 338px;
+}
+/*--------------------------------------------------------*/
+
+/*FRAME: hire_me*/
+#hire_me{
+	background-image: url(/bytes4future/portifolio/css/Frame\ 8.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 100vh;
+	padding-top: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .qualities {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 65px;
+	justify-content: center;
+  }
+  
+  #block {
+	background: #ffffff;
+	border-radius: 20px;
+	padding: 10px;
+	width: 200px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #block h3 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+	text-align: center;
+  }
+  
+  #block p {
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	margin: 8px 0;
+	text-align: center;
+  }
+  
+  #block:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 20px yellow;
+  }
+  
+  /* cor da borda das caixas */
+  .iAm {
+	border-top: 5px solid #a1ff63; 
+  }
+  
+  .iHave {
+	border-top: 5px solid #FF6584; 
+  }
+  
+  .iBring {
+	border-top: 5px solid #85b5ec; 
+  }
+  
