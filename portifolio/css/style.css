@@ -90,7 +90,6 @@ button span{
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	padding-bottom: 100px;
 	
 }
 #aboutMe p{
@@ -101,6 +100,7 @@ button span{
 	text-align: center;
 	color: rgba(0, 0, 0, 0.76);
 	margin-bottom: 100px;
+	padding: 100px;
 }
 /*--------------------------------------------------------*/
 
@@ -110,59 +110,25 @@ button span{
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	height: 100vh;
-	padding-top: 60px;
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
 }
-  
 .experience_training {
 	display: flex;
-	justify-content: space-evenly;
-	width: 100%;
+	justify-content: center;
 	max-width: 1200px;
-	gap: 120px;
+	gap: 250px;
 }
-
 .experience_training .block {
-	background: #ffffff;
-	border-radius: 16px;
-	padding: 30px;
-	width: 406px; /* mantém seu width original */
-	min-height: 190px; /* mantém altura aproximada */
-	box-shadow: 0 4px 12px rgba(6, 10, 233, 0.1);
-	transition: transform 0.4s ease, box-shadow 0.3s ease;
-	margin-bottom: 100px;
+	padding-bottom: 130px;
 }
-  
-.experience_training .block h3 {
-	font-family: 'Inter', sans-serif;
-	font-weight: 600;
-	font-size: 1.2rem;
-	margin-bottom: 20px;
-	text-align: center;
-	color: rgba(0, 0, 255, 0.486);
-}
-
-.block ul {
-	padding: 0;
-	margin: 0;
-}
-
 .experience_training .block li {
-	font-family: 'Inter', sans-serif;
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 1.43;
-	margin: 8px 0;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 5px;
 	text-align: left;
-}
-
-.experience_training .block:hover {
-	transform: translateY(-10px);
-	box-shadow: 0 8px 20px rgba(238, 71, 5, 0.89);
-}
-  
+} 
 /*--------------------------------------------------------*/
 
 /*FRAME: skills_language*/
@@ -177,48 +143,16 @@ button span{
 .skills_language {
 	width: 100%;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	padding-top: 200px;
+	margin-right: 450px;
+	margin-left: 300px;
 }
-  
-.skills_language .block {
-	background: #ffffff;
-	border-radius: 16px;
-	padding: 30px;
-	box-shadow: 0 4px 12px rgba(6, 10, 233, 0.1);
-	transition: transform 0.4s ease, box-shadow 0.3s ease;
-	max-width: 400px;
-}
-
-.skills_language .block h3 {
-	font-family: 'Inter', sans-serif;
-	font-weight: 600;
-	font-size: 1.2rem;
-	margin-bottom: 20px;
-	text-align: center;
-	color: rgba(224, 91, 58, 0.486);
-}
-
-.skills_language .block ul {
-	padding: 0;
-	margin: 0;
-}
-
 .skills_language .block li {
-	font-family: 'Inter', sans-serif;
-	font-weight: 300;
-	margin: 8px 0;
+	font-size: 20px;
 	text-align: left;
 	line-height: 1.5;
-	background: #f9f9f9;
-	border-radius: 8px;
 }
-
-.skills_language .block:hover {
-	transform: translateY(-10px);
-	box-shadow: 0 8px 20px rgba(90, 238, 5, 0.74);
-}
-  
 /*--------------------------------------------------------*/
 
 /*FRAME: hire_me*/
@@ -236,14 +170,14 @@ button span{
 .qualities {
 	display: flex;
 	gap: 65px;
+	padding-top: 150px;
 }
 
 #block {
 	background: #ffffff;
-	border-radius: 16px;
+	border-radius: 20px;
 	padding: 10px;
 	width: 200px;
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -256,18 +190,20 @@ button span{
 	color: rgba(137, 43, 226, 0.836);
 }
 
-#block p {
+#block li {
 	font-family: 'Inter', sans-serif;
 	font-weight: 300;
-	margin: 8px 0;
-	text-align: center;
+	margin: 8px;
+	text-align: left;
 }
 
 #block:hover {
 	transform: translateY(-10px);
 	box-shadow: 0 8px 20px yellow;
 }
-
+.block{
+	list-style: none;
+}
 
 /*Footer*/
 footer{
