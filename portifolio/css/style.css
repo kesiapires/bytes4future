@@ -26,12 +26,17 @@ nav a:last-child{
 	font-style: normal;
 }
 /*FRAME: HOME PAGE*/
-#homePage{
+#homePage {
 	background-image: url(/bytes4future/portifolio/css/Frame\ 11.png);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	height: 100vh;
 	padding-top: 60px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	text-align: center;
 }
 /*FLEXBOX*/
 .home{
@@ -58,6 +63,7 @@ button{
 	border-color: paleturquoise;
 	border-radius: 15px;
 	background-color: white;
+	margin-top: 15px;
 }
 button span{
 	color: orange;
@@ -70,6 +76,7 @@ button span{
 .logo {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 20px;
   }
   .download{
 	font-size: 16px;
@@ -79,6 +86,10 @@ button span{
 	color: rgba(0, 0, 0, 0.801);
 	font-size: 20px;
   }
+a.contatos{
+	display: block;
+	margin-bottom: 15px;
+}
 /*--------------------------------------------------------*/
 
 /*FRAME: ABOUT ME*/
