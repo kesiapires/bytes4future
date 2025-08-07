@@ -1,0 +1,15 @@
+
+h1{
+	color: aliceblue
+}
+p{
+	color: pink;
+	margin-top: 30px;
+	font-size: 18px;
+}
+.card{
+	text-align: center;
+	background-color: blueviolet;
+	margin: 150px;
+	padding: 80px;
+}

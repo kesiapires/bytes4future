@@ -1,0 +1,11 @@
+let cities = ["Cabo Frio", "RJ", "SP"];
+console.log(cities);
+console.log(cities[0]);
+console.log(cities[1]);
+cities[1] = "Lisboa";
+console.log(cities);
+cities.push("Natal");
+console.log(cities);
+console.log(cities.length);
+cities.pop();
+console.log(cities);

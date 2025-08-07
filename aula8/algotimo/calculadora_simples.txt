@@ -1,0 +1,24 @@
+INSTRUÇÕES:
+
+
+result = 0
+//1- input o numero a.
+numa = int(input("Digite um valor"))
+//2- input o numero b.
+numb = int(input("Digite outro valor"))
+//3- Escolha uma operação matemática.
+operacao = str(input("Escolha uma operação: + - * /"))
+
+	if  "+":
+		result = numa + numb
+			print(result)
+	se for "-":
+		result = numa - numb
+		print(result)
+	se for "*":
+		result = numa * numb
+		print(result)
+	se for "/":
+		result = numa / numb
+		print(result)
+

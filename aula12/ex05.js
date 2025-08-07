@@ -1,11 +1,8 @@
-function numberList(n){
-    if(n <= 0){
-        return "Insira um valor superior a zero."
-    }
-    let list = [];
-    for(i = 0; i <= n; i++){
-        list.push(i);
-    }
-    return list;
+let i = 0;
+
+while(i < 20){
+	if(i % 2 == 0){
+		console.log(i)
+	}
+	i++;
 }
-console.log(numberList(5));

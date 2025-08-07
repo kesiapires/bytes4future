@@ -1,0 +1,5 @@
+"""carro = [50]
+cat = 0
+while cat < 50:
+	carro.append(cat)"""
+	cat +=1

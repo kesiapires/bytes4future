@@ -1,0 +1,41 @@
+body{
+	background-image: url(ex02.avif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1{
+	font-family: "Libertinus Mono", monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+	color: azure;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	
+}
+p{
+	font-family: "Libertinus Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+	color: azure;
+	border-style: solid dashed dashed solid;
+	padding: 50px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	border-radius: 15px;
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.199);
+}
+button{
+	background-color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+button:hover{
+	color: blueviolet;
+}
+button:active{
+	background-color: blue;
+}

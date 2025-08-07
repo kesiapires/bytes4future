@@ -1,0 +1,17 @@
+Oi! Eu sou a Kesia, uma profissional em transição para tecnologia. 
+Apesar de ainda não ter experiência prática na área, 
+tenho investido muito na minha formação: sou formada em Análise e Desenvolvimento de Sistemas 
+e estou fazendo uma pós-graduação em Data Science, 
+aprendendo sobre Python, estatística e banco de dados.
+
+Eu acredito que, mesmo sem experiência formal, 
+minha força está na minha disposição em aprender. 
+Já participei da Piscine na 42Porto, onde encarei quase um mês de programação intensiva em C e Shell, 
+trabalhando em equipe e resolvendo problemas do zero. Além disso, mantenho projetos pessoais no GitHub, 
+onde pratico conceitos de Python, OOP e desenvolvimento web.
+Atualmente estou em um bootcamp voltado para front-end no programa da bytes for future. 
+
+Sei que tenho muito a evoluir, mas estou pronta para aprender, 
+colaborar e colocar em prática tudo o que venho estudando. 
+Estou em busca de uma oportunidade para ganhar experiência real, 
+contribuir com uma equipe e crescer na área que escolhi.

@@ -1,0 +1,46 @@
+
+h1{
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	
+	color: rgb(165, 46, 42);
+	margin: 150px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 15px;
+	word-spacing: 30px;
+	font-size: 60px;
+
+
+}
+img{
+	padding-left: 650px;
+	margin-bottom: 200px;
+
+}
+body{
+	background-color: blanchedalmond;
+}
+
+h2{
+	padding-left: 50px;
+	color: gray;
+	font-style: italic;
+	font-size: 60px;
+}
+
+#ingredientes{
+	color: rgb(165, 46, 42);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#preparo{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+	color: rgb(165, 46, 42);
+}
+ol{
+	color: gray;
+}
+ul{
+	color: gray;
+}

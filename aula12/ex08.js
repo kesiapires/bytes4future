@@ -1,10 +1,4 @@
-let array = [5,2,9,12];
-let i = 0;
-let max = array[i];
-while(i < array.length){
-    if(array[i]> max){
-        max = array[i];
-    }
-    i++;
+let num = [1,2,3,4,5];
+for(i = 0; i < num.length; i++){
+	console.log(i+1);
 }
-console.log(max);

@@ -1,21 +1,4 @@
-function fizzBuzzKesia(n){
-    let i = 1;
-    let list = [];
-    while(i <= n){
-        if(i %15 == 0){
-            list.push("FizzBuzz");
-        }
-        else if(i %5 == 0){
-            list.push("Buzz");
-        }
-        else if(i %3 == 0){
-            list.push("Fizz");
-        }
-        else{
-            list.push(" ");
-        }
-        i++;
-    }
-    return list
+let num = 3;
+for(i = 0; i < 11; i++){
+	console.log(num, "x", i ,"=", num*i);
 }
-console.log(fizzBuzzKesia(15));
