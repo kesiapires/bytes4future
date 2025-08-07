@@ -1,0 +1,223 @@
+/*Geral*/
+* {
+	margin: 0%;
+	padding: 0%;
+	text-decoration: none;
+}
+/*NAVBAR FIXA*/
+nav{
+	background-color: rgba(46, 45, 45, 0.884);
+	padding: 10px;
+	text-align: right;
+	position: fixed;
+	width: 100%;
+}
+nav a{
+	color: white;
+	margin-left: 30px;
+}
+nav a:last-child{
+	margin-left: 150px;
+	color: yellow;
+	margin-right: 30px;
+	font-family: "Inter Tight", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: bold;
+	font-style: normal;
+}
+/*FRAME: HOME PAGE*/
+#homePage {
+	background-image: url(/github/bytes4future/Portifólio/css/Frame\ 5.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 100vh;
+	padding-top: 60px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	text-align: center;
+}
+/*FLEXBOX*/
+.home{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	text-align: center;
+	height: 100vh;
+}
+/*CONTEUDO DENTRO DA HOME*/
+h5{
+	font-family: "Inter Tight", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: lighter;
+	font-style: normal;
+	font-size: 20px;
+	padding: 120px;
+	padding-left: 320px;
+}
+button{
+	color: rgb(245, 85, 197);
+	font-size: 35px;
+	font-weight: bold;
+	border-color: paleturquoise;
+	border-radius: 15px;
+	background-color: white;
+	margin-top: 15px;
+}
+button span{
+	color: orange;
+}
+#contacts{
+	padding: 100px;
+	padding-right: 220px;
+	font-size: large;
+}
+.logo {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+  }
+  .download{
+	font-size: 16px;
+	font-weight: lighter;
+  }
+.contatos{
+	color: rgba(0, 0, 0, 0.801);
+	font-size: 20px;
+  }
+a.contatos{
+	display: block;
+	margin-bottom: 15px;
+}
+/*--------------------------------------------------------*/
+
+/*FRAME: ABOUT ME*/
+#aboutMe{
+	background-image: url(/github/bytes4future/Portifólio/css/Frame\ 6.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	
+}
+#aboutMe p{
+	font-size: 24px;
+	line-height: 1.43;
+	font-weight: lighter;
+	width: 700px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.76);
+	margin-bottom: 100px;
+	padding: 100px;
+}
+/*--------------------------------------------------------*/
+
+/*FRAME: experience_training*/
+#experience_training {
+	background-image: url(/github/bytes4future/Portifólio/css/Frame\ 7.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.experience_training {
+	display: flex;
+	justify-content: center;
+	max-width: 1200px;
+	gap: 250px;
+}
+.experience_training .block {
+	padding-bottom: 130px;
+}
+.experience_training .block li {
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 5px;
+	text-align: left;
+} 
+/*--------------------------------------------------------*/
+
+/*FRAME: skills_language*/
+#skills_language{
+	background-image: url(/github/bytes4future/Portifólio/css/Frame\ 9.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.skills_language {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 200px;
+	margin-right: 450px;
+	margin-left: 300px;
+}
+.skills_language .block li {
+	font-size: 20px;
+	text-align: left;
+	line-height: 1.5;
+}
+/*--------------------------------------------------------*/
+
+/*FRAME: hire_me*/
+#hire_me{
+	background-image: url(/github/bytes4future/Portifólio/css/Frame\ 8.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 100vh;
+	padding-top: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+  
+.qualities {
+	display: flex;
+	gap: 65px;
+	padding-top: 150px;
+}
+
+#block {
+	background: #ffffff;
+	border-radius: 20px;
+	padding: 10px;
+	width: 200px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#block h3 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+	text-align: center;
+	color: rgba(137, 43, 226, 0.836);
+}
+
+#block li {
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	margin: 8px;
+	text-align: left;
+}
+
+#block:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 20px yellow;
+}
+.block{
+	list-style: none;
+}
+
+/*Footer*/
+footer{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.507);
+}
